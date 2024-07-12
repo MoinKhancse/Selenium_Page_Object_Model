@@ -1,0 +1,8 @@
+<suite name = "suit">
+	<test name = "Automation">
+		<classes>
+			<class name ="selenium.project.tests.creatUserTest"/>
+			<class name ="selenium.project.tests.LoginTest"/>					
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suit]">
+  <test thread-count="5" name="Automation(failed)">
+    <classes>
+      <class name="selenium.project.tests.creatUserTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="SetBrowser"/>
+          <include name="reportHtml"/>
+          <include name="createNewUser"/>
+        </methods>
+      </class> <!-- selenium.project.tests.creatUserTest -->
+      <class name="selenium.project.tests.LoginTest">
+        <methods>
+          <include name="SetBrowser"/>
+          <include name="loginIntoShop"/>
+          <include name="openUrl"/>
+          <include name="reportHtml"/>
+        </methods>
+      </class> <!-- selenium.project.tests.LoginTest -->
+    </classes>
+  </test> <!-- Automation(failed) -->
+</suite> <!-- Failed suite [suit] -->

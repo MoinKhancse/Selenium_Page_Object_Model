@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T00:50:49 BDT" name="suit" finished-at="2024-07-12T00:51:00 BDT" duration-ms="10360">
+    <groups>
+    </groups>
+    <test started-at="2024-07-12T00:50:49 BDT" name="Automation" finished-at="2024-07-12T00:51:00 BDT" duration-ms="10360">
+      <class name="selenium.project.tests.LoginTest">
+        <test-method is-config="true" signature="SetBrowser()[pri:0, instance:selenium.project.tests.LoginTest@3fc2959f]" started-at="2024-07-12T00:50:48 BDT" name="SetBrowser" finished-at="2024-07-12T00:50:49 BDT" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBrowser -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:selenium.project.tests.LoginTest@3fc2959f]" started-at="2024-07-12T00:50:49 BDT" name="openUrl" finished-at="2024-07-12T00:50:54 BDT" duration-ms="4327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="loginIntoShop()[pri:1, instance:selenium.project.tests.LoginTest@3fc2959f]" started-at="2024-07-12T00:50:54 BDT" name="loginIntoShop" finished-at="2024-07-12T00:50:59 BDT" duration-ms="5718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoShop -->
+        <test-method is-config="true" signature="reportHtml()[pri:0, instance:selenium.project.tests.LoginTest@3fc2959f]" started-at="2024-07-12T00:50:59 BDT" name="reportHtml" finished-at="2024-07-12T00:51:00 BDT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHtml -->
+      </class> <!-- selenium.project.tests.LoginTest -->
+    </test> <!-- Automation -->
+  </suite> <!-- suit -->
+</testng-results>
